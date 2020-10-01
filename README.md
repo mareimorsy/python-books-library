@@ -10,7 +10,7 @@ python3.6 main.py
 ```
 
 # Components
-* `bookHandler.py` : it handles all books CRUD operations also you can think of this module as an ORM in modrn frameworks, so you can use it as following:
+* `bookHandler.py` : it handles all books CRUD operations also you can think of this module as an ORM in modern frameworks, so you can use it as following:
 ```
 book = Book.findById(4) # Get the book which has the ID #4
 book.title = "New title"
